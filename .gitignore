@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Gizli Bilgiler (API anahtarları asla commit edilmez!)
+.env
+secrets.py
+config_local.py
+
+# Log ve Veri Dosyaları
+data/logs/*.csv
+data/logs/*.log
+data/logs/*.png
+*.log
+
+# Test Çıktıları
+.pytest_cache/
+htmlcov/
+.coverage

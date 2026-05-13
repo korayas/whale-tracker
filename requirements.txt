@@ -1,0 +1,13 @@
+# Whale Tracker Bağımlılıkları
+# pip install -r requirements.txt
+
+# --- Zorunlu ---
+# (Standart kütüphane dışı zorunlu paket yok)
+# Matriks IQ API modülü kurumsal lisanslıdır, manuel kurulum gerektirir.
+
+# --- Opsiyonel: Görsel çıktı (heatmap) ---
+matplotlib>=3.7.0
+numpy>=1.24.0
+
+# --- Geliştirme / Test ---
+pytest>=7.4.0
